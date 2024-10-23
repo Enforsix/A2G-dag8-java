@@ -33,7 +33,7 @@ fullName = `My name is ${firstName} ${lastName}!`
 console.log(fullName)
 console.log(typeof fullName)
 
-//
+// a variabel using DOM Manipulationc to display text to HTML element
 const htmlElement = document.querySelector("#javaSkriptData");
 htmlElement.textContent = fullName;
 
